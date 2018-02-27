@@ -58,9 +58,10 @@ You are ready to view some coding and work within QT to make changes in the app.
 
 ## App Development
 First, lets figure out where our area of study is. Given where you pull the feature layer from, the geographic location is important so that the application does not open with a world view, but rather zoom in where your feature layer is located. The map is in world view so it is essential to include a latidude and longitude in your code as well as zoom level in QT Creator so that the focus of the map in these coordinates.  
-In order to provide zoom level for your map, change this code to a zoom level that makes sense for your feature layer.  
+In order to provide zoom level for your map, change this code to a zoom level that makes sense for your feature layer. The zoom level below for this code is a great distance if you want the United States in view. The lower the number, the closer the zoom level is to the map. 
 ```
-targetScale: 50000
+targetScale: 40000000
 ```
-
+Next, we want to change our location. This is done with using latitude and longitude coordiates which you can search on google for any given location.  
+This map will focus on a feature service layer that will be displayed in Idaho. Thus, a good central coordinate of Idaho will work.
 
