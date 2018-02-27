@@ -101,3 +101,27 @@ To add a feature layer, it is important to understand the basics of REST service
 Notice the URL has a number at the end. That is calling an endpoint to render a specific layer in the multiple services that this REST provides. I am making a map of all the designated geothermal springs in Idaho. After this script has been added, your map should have blue triangle symbols in Idaho such as the image below.  
 ![geothermalmap](esriapp8.PNG)
 
+*Figure 8*
+
+You have added a feature layer to your map! The full block of code should look something like this:
+```
+        Map{
+            id:map 
+            BasemapImageryWithLabelsVector{}
+            initialViewpoint: ViewpointCenter {
+                id:initialViewpoint
+                center: Point {
+                    x: -12876752
+                    y: 5490404
+                    spatialReference: SpatialReference {wkid: 102100}
+                }
+                targetScale: 10000000
+            }
+            FeatureLayer {
+                ServiceFeatureTable {
+                    url: "https://maps.idwr.idaho.gov/arcgis/rest/services/BP/_Geothermal/MapServer/1"
+                }
+            }
+
+        }
+```
