@@ -16,17 +16,20 @@ Navigate to this [website](https://doc.arcgis.com/en/appstudio/download/) to fin
 
 ![Download Site for AppStudio](esriapp.PNG)
 *Figure 1*
+
 ### 3. QT Creator
 There is no need to download QT Creator as it comes with AppStudio. After AppStudio has been downloaded, a quick search in all programs for "AppStudio" will display "AppStudio for Desktop Version" as well as "QT Creator" as seen in figure 2. The necessary components of building an app are complete. Now let's begin with AppStudio to develop our application. 
 
 ![QT Creator](esriapp2.PNG)
 *Figure 2*
+
 ## App Development and Installation
 #### Below are the intial steps in creating the basic elements of the application starting with AppStudio. 
 1. Create a new App (see figure 3)
 
 ![NewApp](esriapp3.PNG)
 *Figure 3*
+
 2. Toggle to Starters and click Hello World (Runtime) (see figure 4)
 3. Name your app on the top right corner under title
 3. Click on Create
