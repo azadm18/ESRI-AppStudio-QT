@@ -20,3 +20,4 @@ Navigate to this [website](https://doc.arcgis.com/en/appstudio/download/) to fin
 There is no need to download QT Creator as it comes with AppStudio. After AppStudio has been downloaded, a quick search in all programs for "AppStudio" will display "AppStudio for Desktop Version" as well as "QT Creator" as seen in the image below. The necessary components of building an app are complete. Now let's begin with AppStudio to develop our application. 
 
 ![QT Creator](esriapp2.PNG)
+## App Development and Installation
