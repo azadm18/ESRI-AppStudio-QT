@@ -12,4 +12,4 @@ The following items need to be downloaded and/or are required in order to build 
 This application will not work without an account with ESRI. A standard license is required with ArcGIS in order to access ESRI's app building services.
 
 ### 2. ESRI AppStudio
-![Alt Text](/images/esriapp.PNG)
+![Download Site for AppStudio](esriapp.PNG)
