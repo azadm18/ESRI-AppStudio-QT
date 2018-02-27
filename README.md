@@ -25,7 +25,7 @@ There is no need to download QT Creator as it comes with AppStudio. After AppStu
 
 *Figure 2*
 
-## App Development and Installation
+## Installation
 #### Below are the intial steps in creating the basic elements of the application starting with AppStudio. 
 1. Create a new App (see figure 3)
 
@@ -55,3 +55,5 @@ To open the app in QT Creator, right click on the application when in AppStudio 
 You are ready to view some coding and work within QT to make changes in the app.
 
 **Remember**: Any changes made in QT Creator can be directly seen in AppStudio by double clicking the app. Remember to "save all" in QT Creator and refresh your app in AppStudio before you open the application so you can view the changes. 
+
+## App Development
