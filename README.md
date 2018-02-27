@@ -63,5 +63,14 @@ In order to provide zoom level for your map, change this code to a zoom level th
 targetScale: 40000000
 ```
 Next, we want to change our location. This is done with using latitude and longitude coordiates which you can search on google for any given location.  
-This map will focus on a feature service layer that will be displayed in Idaho. Thus, a good central coordinate of Idaho will work.
+This map will focus on a feature service layer that will be displayed in Idaho. Thus, a good central coordinate of Idaho will work.  
+Here is the code that specifies location. Change the x and y coordinate to your location of focus.  
+```
+        ViewpointCenter {
+            id: vc
+            center: Point {
+                x: -12876752
+                y: 5490404
+```
 
+I am also going to change the `targetScale` to 10000000 so the focus will be on the state of Idaho.
