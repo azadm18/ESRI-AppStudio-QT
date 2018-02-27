@@ -57,3 +57,7 @@ You are ready to view some coding and work within QT to make changes in the app.
 **Remember**: Any changes made in QT Creator can be directly seen in AppStudio by double clicking the app. Remember to "save all" in QT Creator and refresh your app in AppStudio before you open the application so you can view the changes. 
 
 ## App Development
+First, lets figure out where our area of study is. Given where you pull the feature layer from, the geographic location is important so that the application does not open with a world view, but rather zoom in where your feature layer is located. The map is in world view so it is essential to include a latidude and longitude in your code as well as zoom level in QT Creator so that the focus of the map in these coordinates.  
+In order to provide zoom level for your map, change this code to a zoom level that makes sense for your feature layer.  
+'''
+targetScale: 50000
