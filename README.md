@@ -125,3 +125,8 @@ You have added a feature layer to your map! The full block of code should look s
 
         }
 ```
+## Deployment
+Now, your app needs to be uploaded after you are satisfied with the way it looks. Go to AppStudo and when you click on your app, you should see an upload sign which will upload the app in any organization you are part of or as a public app given your preferences. Using a mobile device at this stage might need necessary changes in the script because if you have been working on desktop or a computer for viewing your app, it may be different. 
+
+## Authors
+Azad Mohammed - Geospatial Technologies student at UW Tacoma
