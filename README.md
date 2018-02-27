@@ -12,23 +12,26 @@ The following items need to be downloaded and/or are required in order to build 
 This application will not work without an account with ESRI. A standard license is required with ArcGIS in order to access ESRI's app building services.
 
 ### 2. ESRI AppStudio
-Navigate to this [website](https://doc.arcgis.com/en/appstudio/download/) to find Appstudio on ESRI's website. Based on your computer, download the accurate version of your computer's platform under the highlighted section in the image below. There is no need to download AppStudio Player unless you want to visualize your applicaiton on your mobile device in which case you can access the app in iOS or Android. AppStudio software will also allow you to visualize the application on a small screen in its completion form. Note - for this tutorial, Windows x64 is the platform of choice. 
+Navigate to this [website](https://doc.arcgis.com/en/appstudio/download/) to find Appstudio on ESRI's website. Based on your computer, download the accurate version of your computer's platform under the highlighted section in figure 1. There is no need to download AppStudio Player unless you want to visualize your applicaiton on your mobile device in which case you can access the app in iOS or Android. AppStudio software will also allow you to visualize the application on a small screen in its completion form. Note - for this tutorial, Windows x64 is the platform of choice. 
 
 ![Download Site for AppStudio](esriapp.PNG)
-
+*Figure 1*
 ### 3. QT Creator
-There is no need to download QT Creator as it comes with AppStudio. After AppStudio has been downloaded, a quick search in all programs for "AppStudio" will display "AppStudio for Desktop Version" as well as "QT Creator" as seen in the image below. The necessary components of building an app are complete. Now let's begin with AppStudio to develop our application. 
+There is no need to download QT Creator as it comes with AppStudio. After AppStudio has been downloaded, a quick search in all programs for "AppStudio" will display "AppStudio for Desktop Version" as well as "QT Creator" as seen in figure 2. The necessary components of building an app are complete. Now let's begin with AppStudio to develop our application. 
 
 ![QT Creator](esriapp2.PNG)
+*Figure 2*
 ## App Development and Installation
 #### Below are the intial steps in creating the basic elements of the application starting with AppStudio. 
-1. Create a new App (see image below)
+1. Create a new App (see figure 3)
 
 ![NewApp](esriapp3.PNG)
-2. Toggle to Starters and click Hello World (Runtime) (see image below)
+*Figure 3*
+2. Toggle to Starters and click Hello World (Runtime) (see figure 4)
 3. Name your app on the top right corner under title
 3. Click on Create
 
 ![Create](esriapp4.PNG)
-Figure 3
+*Figure 4*
+
 4. Double click the new app in AppStudio and you should have a generic map with  basic functions display (see image below)
