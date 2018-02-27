@@ -78,4 +78,9 @@ Here is the code that specifies location. Change the x and y coordinate to your 
              }
 ```
 
-I am also going to change the `targetScale` to 10000000 so the focus will be on the state of Idaho. The `spatialReference` refers to the associated coordinate system. By default, this one is Web Mercator auxillary sphere. 
+I am also going to change the `targetScale` to 10000000 so the focus will be on the state of Idaho. The `spatialReference` refers to the associated coordinate system. By default, this one is Web Mercator auxillary sphere.  
+Finally, lets play with the basemap so you can customize it to your liking. I want a basemap that is satellite imagery to include labels. There are multiple options to choose from. See this [link](https://developers.arcgis.com/qt/latest/qml/api-reference/qml-esri-arcgisruntime-basemap.html) for a list of basemaps with QML.
+```   Map {
+            BasemapImageryWithLabelsVector {}
+            initialViewpoint: vc
+```
