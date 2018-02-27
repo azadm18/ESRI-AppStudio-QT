@@ -84,3 +84,14 @@ Finally, lets play with the basemap so you can customize it to your liking. I wa
             BasemapImageryWithLabelsVector {}
             initialViewpoint: vc
 ```
+Now that we have changed the map to our liking, it is time to add a feature layer onto your map. We have a good zoom level on Idaho, the basemap is satellite imagery, and the focus is on the state. Double click the app in AppStudio and it should look something like figure 7.  
+
+![finalmap](esriapp7.PNG)  
+
+```
+            FeatureLayer {
+                ServiceFeatureTable {
+                    url: "https://maps.idwr.idaho.gov/arcgis/rest/services/BP/_Geothermal/MapServer/1"
+                }
+            }
+```
