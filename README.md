@@ -41,6 +41,7 @@ There is no need to download QT Creator as it comes with AppStudio. After AppStu
 
 4. Double click the new app in AppStudio and you should have a generic map with basic functions display (see figure 5)
 ![MyMap](esriapp5.PNG)
+
 *Figure 5*
 
-Now, you have a basic app to build upon. 
+Now, you have a basic app to build upon. Lets move this app to QT creator to do some editing and changing so that we can customize our map to our needs and, later on, add feature layers. 
