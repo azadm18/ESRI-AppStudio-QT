@@ -58,7 +58,7 @@ You are ready to view some coding and work within QT to make changes in the app.
 
 ## App Development
 First, lets figure out where our area of study is. Given where you pull the feature layer from, the geographic location is important so that the application does not open with a world view, but rather zoom in where your feature layer is located. The map is in world view so it is essential to include a latidude and longitude in your code as well as zoom level in QT Creator so that the focus of the map in these coordinates.  
-In order to provide zoom level for your map, change this code to a zoom level that makes sense for your feature layer. The zoom level below for this code is a great distance if you want the United States in view. The lower the number, the closer the zoom level is to the map. 
+In order to provide zoom level for your map, change this code to a zoom level that makes sense for your feature layer.  The zoom level below for this code is a great distance if you want the United States in view. The lower the number, the closer the zoom level is to the map. **Note:** All of the script below will be under the headline ``` Map { ```. 
 ```
 targetScale: 40000000
 ```
@@ -88,6 +88,9 @@ Now that we have changed the map to our liking, it is time to add a feature laye
 
 ![finalmap](esriapp7.PNG)  
 
+*Figure 7*  
+
+To add a feature layer, it is important to understand the basics of REST services. These online services allow you to pull raster, vector, point, line, or polygon features and add it onto a map using the URL of the REST service. Each layer has a designated number after clicking the REST service which you can see in the URL. After you know what feature you would like to use, add this bit of code to your script. 
 ```
             FeatureLayer {
                 ServiceFeatureTable {
@@ -95,3 +98,6 @@ Now that we have changed the map to our liking, it is time to add a feature laye
                 }
             }
 ```
+Notice the URL has a number at the end. That is calling an endpoint to render a specific layer in the multiple services that this REST provides. I am making a map of all the designated geothermal springs in Idaho. After this script has been added, your map should have blue triangle symbols in Idaho such as the image below.  
+![geothermalmap](esriapp8.PNG)
+
