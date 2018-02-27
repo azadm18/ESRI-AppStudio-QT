@@ -15,6 +15,7 @@ This application will not work without an account with ESRI. A standard license 
 Navigate to this [website](https://doc.arcgis.com/en/appstudio/download/) to find Appstudio on ESRI's website. Based on your computer, download the accurate version of your computer's platform under the highlighted section in figure 1. There is no need to download AppStudio Player unless you want to visualize your applicaiton on your mobile device in which case you can access the app in iOS or Android. AppStudio software will also allow you to visualize the application on a small screen in its completion form. Note - for this tutorial, Windows x64 is the platform of choice. 
 
 ![Download Site for AppStudio](esriapp.PNG)
+
 *Figure 1*
 
 ### 3. QT Creator
@@ -37,6 +38,7 @@ There is no need to download QT Creator as it comes with AppStudio. After AppStu
 4. Click on Create
 
 ![Create](esriapp4.PNG)
+
 *Figure 4*
 
 5. Double click the new app in AppStudio and you should have a generic map with basic functions display (see figure 5)
@@ -50,5 +52,5 @@ To open the app in QT Creator, right click on the application when in AppStudio 
 
 *Figure 6*
 
-You are ready to view some coding and work within QT to make changes in the app.
+You are ready to view some coding and work within QT to make changes in the app. 
 **Remember**: Any changes made in QT Creator can be directly seen in AppStudio by double clicking the app. Remember to "save all" in QT Creator and refresh your app in AppStudio before you open the application so you can view the changes. 
