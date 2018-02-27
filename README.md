@@ -23,9 +23,12 @@ There is no need to download QT Creator as it comes with AppStudio. After AppStu
 ## App Development and Installation
 #### Below are the intial steps in creating the basic elements of the application starting with AppStudio. 
 1. Create a new App (see image below)
+
 ![NewApp](esriapp3.PNG)
 2. Toggle to Starters and click Hello World (Runtime) (see image below)
 3. Name your app on the top right corner under title
 3. Click on Create
+
 ![Create](esriapp4.PNG)
+Figure 3
 4. Double click the new app in AppStudio and you should have a generic map with  basic functions display (see image below)
