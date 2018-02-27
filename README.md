@@ -71,6 +71,11 @@ Here is the code that specifies location. Change the x and y coordinate to your 
             center: Point {
                 x: -12876752
                 y: 5490404
+                spatialReference: SpatialReference {wkid: 102100}
+                }
+                targetScale: 10000000
+                }
+             }
 ```
 
-I am also going to change the `targetScale` to 10000000 so the focus will be on the state of Idaho.
+I am also going to change the `targetScale` to 10000000 so the focus will be on the state of Idaho. The `spatialReference` refers to the associated coordinate system. By default, this one is Web Mercator auxillary sphere. 
